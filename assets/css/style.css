@@ -366,11 +366,20 @@ body.light-theme{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     z-index: 2;
     top: 12%;
-    scale: 160%;
-    animation: slideUp 2s ease-out; /* Aplica la animación */
+    width: 100%;     /* Esto hará que la imagen ocupe todo el ancho disponible */
+    height: auto;    /* Mantiene la proporción */
+    animation: slideUp 2s ease-out;
+}
+
+@media (max-width: 425px) {
+    .home_img {
+        max-width: 95%;  /* Ajusta un poco más grande en pantallas pequeñas */
+        height: auto;
+        top: 5%;
+    }
 }
 
 @keyframes slideUp {

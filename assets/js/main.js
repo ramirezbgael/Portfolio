@@ -127,7 +127,6 @@ themeButton.addEventListener('click', () =>{
   localStorage.setItem('selected-icon', getCurrentIcon())
 })
 
-<<<<<<< HEAD
 document.addEventListener("DOMContentLoaded", () => {
   const phrases = [
     "Software Developer", 
@@ -145,8 +144,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }, 1100); // Cambia cada 2 segundos
 });
 
-=======
->>>>>>> 1824b41ca28247503567b256cf71886c34e91ee8
 
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
