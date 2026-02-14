@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--FAVICON-->
+    <link rel="shortcut icon" href="./assets/img/logo.png" type="image/x-icon">
+
+    <!--BOXICONS-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <!--SWIPER CSS-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <title>Gael's Portfolio</title>
+</head>
+<body>
+    <!--HEADER-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav_logo">Gael</a>
+            
+            <div class="nav__menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#home" class="nav_link active-link">
+                            <i class='bx bx-home'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link">
+                            <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#skills" class="nav_link">
+                            <i class='bx bx-book'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#work" class="nav_link">
+                            <i class='bx bx-briefcase-alt-2'></i>
+                        </a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#contact" class="nav_link">
+                            <i class='bx bx-message-square-detail'></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <!--Theme change button-->
+            <i class='bx bx-moon change-theme' id="theme-button"></i>
+        </nav>
+    </header>    
+
+    <!--MAIN-->
+    <main class="main">
+        <!--Home-->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_data">
+                    <span class="home_greeting">Hello I'm</span>
+                    <h1 class="home_name">Gael Ramirez</h1>
+                    <h3 class="home_education">Software Developer</h3>
+
+                    <div class="home_buttons">
+                        <a download="" href="./assets/pdf/cv.pdf" class="button button--ghost">
+                            Download CV
+                        </a>
+                        <a href="#about" class="button">About me</a>
+                    </div>
+                </div>
+
+                <div class="home_handle">
+                    <img src="./assets/img/perfil.png" alt="" class="home_img">
+                </div>
+            
+
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/gael-ramirez-686b64230/" class="home_social-link" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/ramirezbgael" class="home_social-link" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=527294998951&text=¡Hola! Hello! Ni Hao!" class="home_social-link" target="_blank">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+            </div>
+
+            <a href="#about" class="home_scroll">
+                <i class='bx bx-mouse home_scroll-icon'></i>
+                <span class="home_scroll-name">Scroll Down</span>
+            </a>
+
+                
+                    
+            
+            </div>
+        </section>
+
+        <!--About-->
+        <section class="about section" id="about">
+            <span class="section_subtitle">My intro</span>
+            <h2 class="section_title">About me</h2>
+
+            <div class="about_container container grid">
+                <!--<img src="./assets/img/about.png" alt="" class="about_img">-->
+
+                <div class="about_data">
+                    <div class="about_info">
+
+                       <div class="about_box">
+                            <i class='bx bx-award about_icon'></i>
+                           <h3 class="about_title">Experience</h3>
+                           <span class="about_subtitle">1 year 4 months</span>
+                       </div>
+
+                       <div class="about_box">
+                            <i class='bx bx-briefcase-alt about_icon'></i>
+                            <h3 class="about_title">Completed</h3>
+                            <span class="about_subtitle">5 Projects</span>
+                        </div> 
+                        
+                        <div class="about_box">
+                            <i class='bx bx-support about_icon'></i>
+                            <h3 class="about_title">Support</h3>
+                            <span class="about_subtitle">Online 24/7</span>
+                        </div> 
+
+                    </div>
+                    <p class="about_description">
+                        Experimenting with computers since 2014, robots were my passion at that time,
+                        now I'm a problem solver React Developer, connecting frontend with the people.
+                        Always reviewed with a marketing eye.
+                    </p>
+
+                    <a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <!--Skills-->
+        <section class="skills section" id="skills">
+            <span class="section_subtitle">My abilities</span>
+            <h2 class="section_title">My Experience</h2>
+
+            <div class="skills_container container grid">
+                
+                <div class="skills_content">
+                    <h3 class="skills_title">Frontend Developer</h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">HTML</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">CSS</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">JavaScript</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_group">
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">Git</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">React</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">NextJS</h3>
+                                    <span class="skills_level">Intermediate</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills_content">
+                    <h3 class="skills_title">Backend Developer</h3>
+
+                    <div class="skills_box">
+                        <div class="skills_group">
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">Node JS</h3>
+                                    <span class="skills_level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">Python</h3>
+                                    <span class="skills_level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="skills_group">
+
+                            <div class="skills_data">
+                                <i class='bx bxs-badge-check'></i>
+
+                                <div>
+                                    <h3 class="skills_name">MySQL</h3>
+                                    <span class="skills_level">Intermediate</span>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="skills-images">
+                    
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="react logo">
+                        <p>React</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript logo">
+                        <p>JavaScript</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/732/732212.png" alt="html logo">
+                        <p>HTML</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png" alt="css-logo">
+                        <p>CSS</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png" alt="tailwind logo">
+                        <p>Tailwind</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png" alt="node logo">
+                        <p>NodeJS</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" alt="Python Logo">
+                        <p>Python</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" alt="git logo">
+                        <p>Git</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Logo">
+                        <p>GitHub</p>
+                    </div>
+                    <div>
+                        <img class="skill-img" src="https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png" alt="figma logo">
+                        <p>Figma</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Services-->
+        <section class="services section">
+            <span class="section_subtitle">My services</span>
+            <h2 class="section_title">What I offer</h2>
+
+            <div class="services_container container grid">
+                <div class="services_card">
+                    <h3 class="services_title">Web pages <br> layout</h3>
+
+                    <span class="services_button">
+                        See more<i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Web pages <br> layout</h3>
+                            <p class="services_modal-description">
+                                Landing ideas for your web page using html, css and javasrcipt
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Responsive design
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Great final looking for your products
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Fully functional buttons
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        UX element interactions
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Figma based design
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div id="services_modal-overlay"></div> -->
+
+                <div class="services_card">
+                    <h3 class="services_title">Web apps <br>building with React</h3>
+
+                    <span class="services_button">
+                        See more<i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Web apps building with react</h3>
+                            <p class="services_modal-description">
+                                Perfect for non-static webpages, e-commerce sites or apps (like weather, videogames, etc.)
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Responsive design
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        API connection
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Web page deploy in your domain
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Fully functional buttons
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Clean coding
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services_card">
+                    <h3 class="services_title">Visual <br> designer</h3>
+
+                    <span class="services_button">
+                        See more<i class='bx bx-right-arrow-alt services_icon'></i>
+                    </span>
+
+                    <div class="services_modal">
+                        <div class="services_modal-content">
+                            <i class='bx bx-x services_modal-close'></i>
+
+                            <h3 class="services_modal-title">Visual designer</h3>
+                            <p class="services_modal-description">
+                                Visual design for your web app or web page, usign Figma
+                            </p>
+
+                            <ul class="services_modal-list">
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Design and mockups of products
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        User interface
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        Admin interface
+                                    </p>
+                                </li>
+
+                                <li class="services_modal-item">
+                                    <i class='bx bx-check services_modal-icon'></i>
+                                    <p class="services_modal-info">
+                                        UX/UI elements icons
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Work-->
+        <section class="work section" id="work">
+            <span class="section_subtitle">My Portfolio</span>
+            <h2 class="section_title">Recent Works</h2>
+            <!-- <span class="section_subtitle not">Not actual works</span> -->
+
+            <div class="work_filters">
+                <span class="work_item active-work" data-filter="all">All</span>
+                <span class="work_item" data-filter=".react">React</span>
+                <span class="work_item" data-filter=".javascript">JavaScript</span>
+                <span class="work_item" data-filter=".next">NextJS</span>
+            </div>
+
+
+            <div class="work_container container grid">
+                <div class="work_card mix react next javascript">
+                    <img src="./assets/img/spotify.jpeg" alt="" class="work_img">
+
+                    <h3 class="work_title">Spotify Clone</h3>
+                    <a href="https://www.spotify.gael.codes/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+                <div class="work_card mix react javascript">
+                    <img src="./assets/img/pokedex.jpeg" alt="" class="work_img">
+
+                    <h3 class="work_title">Pokedex</h3>
+                    <a href="https://www.pokedex.gael.codes/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+                <div class="work_card mix javascript">
+                    <img src="./assets/img/realWork1.png" alt="" class="work_img">
+
+                    <h3 class="work_title">E-Commerce</h3>
+                    <a href="https://gaelecommerce.netlify.app/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix react javascript">
+                    <img src="./assets/img/realwork3.png" alt="" class="work_img">
+
+                    <h3 class="work_title">Rick and Morty API connection</h3>
+                    <a href="https://rickmorty-ramirezbgael.netlify.app/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+
+                <div class="work_card mix react javascript">
+                    <img src="./assets/img/realwork2.png" alt="" class="work_img">
+
+                    <h3 class="work_title">Weather App in React</h3>
+                    <a href="https://weather-ramirezbgael.netlify.app/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+                
+                <div class="work_card mix react javascript">
+                    <img src="./assets/img/realwork4.png" alt="" class="work_img">
+
+                    <h3 class="work_title">Random quotes app in React</h3>
+                    <a href="https://gaelquotesapp.netlify.app/" class="work_button" target="_blank">
+                        Demo <i class='bx bx-right-arrow-alt work_icon'></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--Testimonials-->
+        <!-- <section class="testimonials">
+            <span class="section_subtitle">My clients say</span>
+            <h2 class="section_title">Testimonial</h2>
+            <span class="section_subtitle not">Not actual clients</span>
+
+            <div class="testimonial_container container swiper">
+                <div class="swiper-wrapper">
+                    <div class="testimonial_card swiper-slide">
+                        <img src="./assets/img/testimonial1.png" alt="" class="testimonial_img">
+
+                        <h3 class="testimonial_name">Jhon Doe</h3>
+                        <p class="testimonial_description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+
+                    <div class="testimonial_card swiper-slide">
+                        <img src="./assets/img/testimonial2.png" alt="" class="testimonial_img">
+
+                        <h3 class="testimonial_name">Paula Vusy</h3>
+                        <p class="testimonial_description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+
+                    <div class="testimonial_card swiper-slide">
+                        <img src="./assets/img/testimonial3.jpeg" alt="" class="testimonial_img">
+
+                        <h3 class="testimonial_name">Mark Hill</h3>
+                        <p class="testimonial_description">
+                            A really good job, all aspects of the project were
+                            followed step by step and with good results.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section> -->
+
+        <!--Contact-->
+        <section class="contact section" id="contact">
+            <span class="section_subtitle">Get in touch</span>
+            <h2 class="section_title">Contact me</h2>
+
+            <div class="contact_container container grid">
+                    <div class="contact_content">
+                        <h3 class="contact_title">Talk to me</h3>
+
+                        <div class="contact_info">
+                            <div class="contact_card">
+                                <i class='bx bx-mail-send contact_card-icon'></i>
+                                <h3 class="contact_card-title">Email</h3>
+                                <span class="contact_card-data">ramirezbgael@gmail.com</span>
+
+                                <a href="mailto:ramirezbgael@gmail.com" target="_blank" class="contact_button">
+                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact_card">
+                                <i class='bx bxl-whatsapp contact_card-icon' ></i>
+                                <h3 class="contact_card-title">Whatsapp</h3>
+                                <span class="contact_card-data">7294998951</span>
+
+                                <a href="https://api.whatsapp.com/send?phone=527294998951&text=Hello!" target="_blank" class="contact_button">
+                                Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
+                                </a>
+                            </div>
+
+                            <div class="contact_card">
+                                <i class='bx bxl-linkedin contact_card-icon' ></i>
+                                <h3 class="contact_card-title">Linkedin</h3>
+                                <span class="contact_card-data">linkedin.com/in/gaelramirez</span>
+
+                                <a href="https://linkedin.com/in/gaelramirez" target="_blank" class="contact_button">
+                                    Write me <i class='bx bx-right-arrow-alt contact_button-icon' ></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact_content">
+                        <h3 class="contact_title">Write me your project</h3>
+
+                        <form action="https://formspree.io/f/moqryoll"
+                        method="POST" class="contact_form">
+                            <div class="contact_form-div">
+                                <label for="name" class="contact_form-tag">Name</label>
+                                <input type="text" placeholder="Insert your name" class="contact_form-input" name="name">
+                            </div>
+
+                            <div class="contact_form-div">
+                                <label for="email" class="contact_form-tag">Mail</label>
+                                <input type="email" placeholder="Insert your email" class="contact_form-input" name="email">
+                            </div>
+
+                            <div class="contact_form-div contact_form-area">
+                                <label for="message" class="contact_form-tag">Project</label>
+                                <textarea name="" id="" cols="30" rows="10" placeholder="Write your project" class="contact_form-input" name="message"></textarea>
+                            </div>
+
+                            <button type="submit" class="button">Send Message</button>
+                        </form>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer">
+        <div class="footer_container-container">
+            <h1 class="footer_title">Gael</h1>
+
+            <ul class="footer_list">
+                <li>
+                    <a href="#about" class="footer_link">About</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer_link">Projects</a>
+                </li>
+
+                <li>
+                    <a href="#testimonial" class="footer_link">Testimonial</a>
+                </li>
+            </ul>
+
+            <ul class="footer_social">
+                <a href="https://linkedin.com/in/gaelramirez" target="_blank" class="footer_social-link">
+                    <i class='bx bxl-linkedin' ></i>
+                </a>
+
+                <a href="mailto:ramirezbgael@gmail.com" target="_blank" class="footer_social-link">
+                    <i class='bx bx-mail-send'></i>
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=527294998951&text=Hello!" target="_blank" class="footer_social-link">
+                    <i class='bx bxl-whatsapp' ></i>
+                </a>
+            </ul>
+
+            <span class="footer_copy">
+                &#169; Gael Ramirez. All rights reserved.
+            </span>
+        </div>
+    </footer>
+
+    <!--SCROLL-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--SWIPER JS-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--MIXITUP FILTER-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--MAIN JS-->
+    <script src="./assets/js/main.js"></script>
+
+    <!-- FORM JS -->
+    <!-- <script src="./assets/js/loadedForm.js"></script> -->
+    
+</body>
+</html>
